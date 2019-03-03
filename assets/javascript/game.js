@@ -1,8 +1,9 @@
-var targetPoints = (x);
+var targetPoints = (max, min) ;
 
 function targetPoints (max,min) {
-    $("#x").text(Math.floor(Math.random() * 120) + 19);
+    $(x).text(Math.floor(Math.random() * 120) + 19);
   }
+
   targetPoints(120, 9);
   console.log(targetPoints);
 
